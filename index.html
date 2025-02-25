@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 <head>
     <!-- Encoded viewport checks for screen size -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +37,13 @@
         <input type="range" id="audioVolumeSlider" min="0" max="1" step="0.01" value="0.5">
         <!-- Help Button -->
     <button id="help-btn">Help</button>
-
+    </div>
+    <!-- Inventory btw-->
+    <div id="inventory-container">
+        <img id="inventory-bg" src="images/updated_inventory.png" alt="Inventory" width="400">
+        <img class="inventory-item" id="pixel-sword" src="images/pixel_sword.png" alt="Pixel Sword" width="80">
+        <img class="inventory-item" id="pixel-key" src="images/pixel_key.png" alt="Pixel Key" width="80">
+    </div>
     <!-- Help Information (hidden initially before clicked) -->
     <div id="help-info">
         <h2>How to Play</h2>

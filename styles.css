@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 /* Story container start sizing */
 #start-screen, #story-container {
     padding: 15px;
@@ -63,7 +65,30 @@ body {
     font-family: 'Silkscreen', sans-serif;
     transition: background 0.75s ease-in-out;
 }
-
+/*This is the inventory...*/
+#inventory-container {
+    position: absolute;
+    top: 160px;
+    right: 1100px;
+    width: 250px;
+    height: auto;
+}
+#inventory-bg {
+    width: 100%;
+    display: block;
+}
+.inventory-item {
+    position: absolute;
+    width: 50px; 
+}
+#pixel-sword {
+    top: 12.5%; 
+    left: 36%; 
+}
+#pixel-key {
+    top: 26.5%; 
+    left: 38%; 
+}
 audio {
     padding: 10px 20px;
     margin: 10px;
